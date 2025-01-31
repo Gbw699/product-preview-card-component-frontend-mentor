@@ -1,0 +1,12 @@
+@use "../styles.scss" as s;
+
+.container {
+  background-color: s.$White;
+  width: 90%;
+  .img-container {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
