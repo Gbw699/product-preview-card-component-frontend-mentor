@@ -10,6 +10,7 @@ $Desktop: 1440px;
 
 // Primary
 $DarkCyan: hsl(158, 36%, 37%);
+$VeryDarkCyan: hsl(158, 89%, 11%);
 $Cream: hsl(30, 38%, 92%);
 
 // Neutral
@@ -24,11 +25,13 @@ body {
   margin: 0;
   font-size: 14px;
   background-color: $Cream;
+  font-family: "Montserrat", serif;
+  font-weight: 500;
 }
 
 app-root {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
